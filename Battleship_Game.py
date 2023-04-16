@@ -22,11 +22,9 @@ class Battleship:
         self.fill_ocean()
     # print the ship in the command line
     def print_board(self):
-        down = 1
         print("\t  1   2   3   4   5   6   7   8   9   10")
-        for row in self.board:
-            print("     " + str(down) + "\t| " + " | ".join(row) + " |")
-            down += 1
+        for x, row in enumerate(self.board):
+            print("     " + str(x+1) + "\t| " + " | ".join(row) + " |")
     # find a direction a given ship length can be placed in from it's starting position
     def arrange_ship(self, first, second, direction, length):
         points = set()
