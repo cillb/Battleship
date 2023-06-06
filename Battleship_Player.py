@@ -1,9 +1,4 @@
 """
-This program contains the player class that is used to interact with the battleship game class.
-The generic class initialises a set of guesses made by the player which is used to check for
-repeated guesses. The guess function takes input from the user, and checks if it is a valid guess
-by making sure integer values are entered that fall inside of a valid range, and that it is not a
-repeated guess.
 This program contains a base player class, which is inherited by human player and computer player classes.
 The human player class takes input to choose placements for the ships, and to make guesses against the computer.
 The inputs are validated and the player is notified of errors. The computer player only makes valid guesses and 
