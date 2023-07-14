@@ -10,8 +10,6 @@ These classes based on whether the user needs to provide input to the program, h
 
 ## Game
 
-The game module contains the game class, which contains functions of the game, and then a game function which runs the game in it's entirety. The player module is imported and two players, a human and computer player are created.
+The game module contains the game class, which contains functions of the game, and then a play function which runs the game in it's entirety. The player module is imported and two players, a human and computer player are created.
 
-The game class holds the functions that make the game work, such as print a player's board to show any changes to it, taking a guess from a player and playing it against the oppoonents board, checking if a ship was sunk when it is hit, and checking for a winner when a ship is sunk.
-
-The game function runs the functions in the correct sequence until a winner is detected.
+The game class holds the functions that make the game work, such as print a player's board to show any changes to it, taking a guess from a player and playing it against the opponents board, checking if a ship was sunk when it is hit, and checking for a winner when a ship is sunk.
